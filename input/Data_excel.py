@@ -2,7 +2,7 @@ import openpyxl
 
 
 def row_count():
-    path = "..\\Input\\Data.xlsx"
+    path = "Data.xlsx"
     wb = openpyxl.load_workbook(path)
 
     # sheet = wb.active
@@ -21,6 +21,8 @@ def row_count():
 
         # To go next line for outer loop
         print()
+
+    return rows, column
 
 
 row_count()
