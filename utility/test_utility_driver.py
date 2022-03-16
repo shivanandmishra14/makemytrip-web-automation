@@ -8,8 +8,8 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 # class UtilityData:
-global driver
-global wait
+# global driver
+# global wait
 
 
 def test_driver_data():
