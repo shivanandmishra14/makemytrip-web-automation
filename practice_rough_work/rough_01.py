@@ -8,11 +8,8 @@ import jsonpath
 json_file = open("C:\\Users\\shiva\\Downloads\\SDET-DevOps\\makemytrip-web-automation\\input\\airportlocation.json")
 flight_locations = json.loads(json_file.read())
 
-location_from = flight_locations[1]
-print(location_from)
-
-location_to = flight_locations[2]
-print(location_to)
+location_from = flight_locations[4]
+location_to = flight_locations[5]
 
 to = location_to['IATA']
 print(to)

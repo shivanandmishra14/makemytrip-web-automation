@@ -470,5 +470,49 @@
  {
   "IATA": "ZER",
   "Municipality": "Ziro"
+ },
+ {
+  "IATA": "CCJ",
+  "Municipality": "Calicut"
+ },
+ {
+  "IATA": "MAA",
+  "Municipality": "Chennai"
+ },
+ {
+  "IATA": "BOM",
+  "Municipality": "Mumbai"
+ },
+ {
+  "IATA": "COK",
+  "Municipality": "Kochi"
+ },
+ {
+  "IATA": "GOI",
+  "Municipality": "Vasco da Gama"
+ },
+ {
+  "IATA": "DEL",
+  "Municipality": "New Delhi"
+ },
+ {
+  "IATA": "BLR",
+  "Municipality": "Bangalore"
+ },
+ {
+  "IATA": "CCU",
+  "Municipality": "Kolkata"
+ },
+ {
+  "IATA": "HYD",
+  "Municipality": "Hyderabad"
+ },
+ {
+  "IATA": "ATQ",
+  "Municipality": "Amritsar"
+ },
+ {
+  "IATA": "TRV",
+  "Municipality": "Thiruvananthapuram"
  }
 ]
