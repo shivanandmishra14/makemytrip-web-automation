@@ -1,9 +1,11 @@
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions
 from constant.constant_data import *
 from locators.flight_locators import *
-from practice_rough_work.test_new_login import wait
-from utility.test_utility_driver import *
+# from practice_rough_work.test_new_login import wait
+from utility.test_utility_driver import test_driver_data, wait
 
-# driver = test_driver_data()
+driver = test_driver_data()
 
 wait.until(expected_conditions.visibility_of_element_located(
     (By.CLASS_NAME, banner_close))).click()
@@ -20,17 +22,15 @@ wait.until(expected_conditions.visibility_of_element_located(
     (By.XPATH, login_with_email))).click()
 
 wait.until(expected_conditions.visibility_of_element_located(
-        (By.XPATH, username_input))).send_keys(username)
+    (By.XPATH, username_input))).send_keys(username)
 
 wait.until(expected_conditions.visibility_of_element_located(
-        (By.XPATH, user_login_continue))).click()
+    (By.XPATH, user_login_continue))).click()
 
 wait.until(expected_conditions.visibility_of_element_located(
-        (By.XPATH, password_input))).send_keys(password)
+    (By.XPATH, password_input))).send_keys(password)
 
 wait.until(expected_conditions.visibility_of_element_located(
-        (By.XPATH, user_login_btn))).click()
+    (By.XPATH, user_login_btn))).click()
 
 # driver.close()
-
-
