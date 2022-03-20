@@ -1,6 +1,7 @@
 import time
 
 from selenium import webdriver
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -66,11 +67,24 @@ driver.find_element(By.ID, "header_tab_rail").click()
 #         c.click()
 #         break
 
-wait.until(expected_conditions.visibility_of_element_located((By.ID, from_text_field))).send_keys("SBC").click()
+#wait.until(expected_conditions.visibility_of_element_located((By.ID, from_text_field))).send_keys("SBC")
+
+#time.sleep(2)
+
+#wait.until(expected_conditions.visibility_of_element_located((By.ID, to_text_field))).send_keys("ERS")
 
 time.sleep(2)
 
-wait.until(expected_conditions.visibility_of_element_located((By.ID, to_text_field))).send_keys("ERS").click()
+try:
+    wait.until(expected_conditions.visibility_of_element_located((By.ID, from_text_field))).send_keys("SBC")
+    print("YOU link found and returned")
+except TimeoutException:
+    print("YOU link not found ... breaking out")
+    #break
 
-time.sleep(2)
-
+try:
+    wait.until(expected_conditions.visibility_of_element_located((By.ID, to_text_field))).send_keys("ERS")
+    print("YOU link found and returned")
+except TimeoutException:
+    print("YOU link not found ... breaking out")
+    #break
