@@ -13,8 +13,8 @@ global wait
 
 
 def test_driver_data():
-    global driver
-    global wait
+    # global driver
+    # global wait
     driver = webdriver.Chrome(executable_path="..\\driver\\chromedriver.exe")
     wait = WebDriverWait(driver, 20)
     driver.get("https://www.makemytrip.com/")

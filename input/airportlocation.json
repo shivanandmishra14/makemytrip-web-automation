@@ -1,0 +1,518 @@
+[
+ {
+  "IATA": "IXA",
+  "Municipality": "Agartala"
+ },
+ {
+  "IATA": "AGX",
+  "Municipality": "Agatti"
+ },
+ {
+  "IATA": "AGR",
+  "Municipality": "Agra"
+ },
+ {
+  "IATA": "AKD",
+  "Municipality": "Akola"
+ },
+ {
+  "IATA": "IXD",
+  "Municipality": "Allahabad"
+ },
+ {
+  "IATA": "IXV",
+  "Municipality": "Arunachal Pradesh"
+ },
+ {
+  "IATA": "Ambala",
+  "Municipality": "Ambala"
+ },
+ {
+  "IATA": "IXU",
+  "Municipality": "Aurangabad"
+ },
+ {
+  "IATA": "IXB",
+  "Municipality": "Siliguri"
+ },
+ {
+  "IATA": "BEK",
+  "Municipality": "Bareilly"
+ },
+ {
+  "IATA": "BPM",
+  "Municipality": "Hyderabad"
+ },
+ {
+  "IATA": "IXG",
+  "Municipality": "Belgaum"
+ },
+ {
+  "IATA": "BEP",
+  "Municipality": "Bellary"
+ },
+ {
+  "IATA": "BUP",
+  "Municipality": "Bathinda"
+ },
+ {
+  "IATA": "BHU",
+  "Municipality": "Bhavnagar"
+ },
+ {
+  "IATA": "BHJ",
+  "Municipality": "Bhuj"
+ },
+ {
+  "IATA": "IXX",
+  "Municipality": "Bidar"
+ },
+ {
+  "IATA": "BBI",
+  "Municipality": "Bhubaneswar"
+ },
+ {
+  "IATA": "PAB",
+  "Municipality": "Bilaspur"
+ },
+ {
+  "IATA": "IXR",
+  "Municipality": "Ranchi"
+ },
+ {
+  "IATA": "CCJ",
+  "Municipality": "Calicut"
+ },
+ {
+  "IATA": "CBD",
+  "Municipality": "Car Nicobar"
+ },
+ {
+  "IATA": "IXC",
+  "Municipality": "Chandigarh"
+ },
+ {
+  "IATA": "LKO",
+  "Municipality": "Lucknow"
+ },
+ {
+  "IATA": "MAA",
+  "Municipality": "Chennai"
+ },
+ {
+  "IATA": "BOM",
+  "Municipality": "Mumbai"
+ },
+ {
+  "IATA": "COK",
+  "Municipality": "Kochi"
+ },
+ {
+  "IATA": "CJB",
+  "Municipality": "Coimbatore"
+ },
+ {
+  "IATA": "GOI",
+  "Municipality": "Vasco da Gama"
+ },
+ {
+  "IATA": "NMB",
+  "Municipality": "Daman and Diu"
+ },
+ {
+  "IATA": "DED",
+  "Municipality": "Dehradun"
+ },
+ {
+  "IATA": "IDR",
+  "Municipality": "Indore"
+ },
+ {
+  "IATA": "DBD",
+  "Municipality": "Dhanbad"
+ },
+ {
+  "IATA": "DIB",
+  "Municipality": "Dibrugarh"
+ },
+ {
+  "IATA": "DMU",
+  "Municipality": "Dimapur"
+ },
+ {
+  "IATA": "NAG",
+  "Municipality": "Naqpur"
+ },
+ {
+  "IATA": "HYD",
+  "Municipality": "Hyderabad"
+ },
+ {
+  "IATA": "GAY",
+  "Municipality": "Bihar"
+ },
+ {
+  "IATA": "GOP",
+  "Municipality": "Gorakhpur"
+ },
+ {
+  "IATA": "GWL",
+  "Municipality": "Gwalior"
+ },
+ {
+  "IATA": "BLR",
+  "Municipality": "Bangalore"
+ },
+ {
+  "IATA": "Jalpaiguri",
+  "Municipality": "Jalpaiguri"
+ },
+ {
+  "IATA": "HSS",
+  "Municipality": "Haryana"
+ },
+ {
+  "IATA": "HBX",
+  "Municipality": "Hubli"
+ },
+ {
+  "IATA": "IMF",
+  "Municipality": "Imphal"
+ },
+ {
+  "IATA": "DEL",
+  "Municipality": "New Delhi"
+ },
+ {
+  "IATA": "JLR",
+  "Municipality": "Madhya Pradesh"
+ },
+ {
+  "IATA": "JAI",
+  "Municipality": "Jaipur"
+ },
+ {
+  "IATA": "JSA",
+  "Municipality": "Jaisalmer"
+ },
+ {
+  "IATA": "BLR",
+  "Municipality": "Bengaluru"
+ },
+ {
+  "IATA": "IXJ",
+  "Municipality": "Jammu"
+ },
+ {
+  "IATA": "JGA",
+  "Municipality": "Jamnagar"
+ },
+ {
+  "IATA": "JDH",
+  "Municipality": "Jodhpur"
+ },
+ {
+  "IATA": "JRH",
+  "Municipality": "Jorhat"
+ },
+ {
+  "IATA": "CDP",
+  "Municipality": "Kadapa"
+ },
+ {
+  "IATA": "IXH",
+  "Municipality": "Kailashahar"
+ },
+ {
+  "IATA": "IXY",
+  "Municipality": "Kandla"
+ },
+ {
+  "IATA": "DHM",
+  "Municipality": "Kangra"
+ },
+ {
+  "IATA": "CNN",
+  "Municipality": "Kannur"
+ },
+ {
+  "IATA": "KNU",
+  "Municipality": "Kanpur"
+ },
+ {
+  "IATA": "RDP",
+  "Municipality": "Durgapur"
+ },
+ {
+  "IATA": "BLR",
+  "Municipality": "Bangalore"
+ },
+ {
+  "IATA": "IXK",
+  "Municipality": "Keshod"
+ },
+ {
+  "IATA": "HJR",
+  "Municipality": "Khajuraho"
+ },
+ {
+  "IATA": "KQH",
+  "Municipality": "Ajmer"
+ },
+ {
+  "IATA": "KLH",
+  "Municipality": "Maharashtra"
+ },
+ {
+  "IATA": "KTU",
+  "Municipality": "Kota"
+ },
+ {
+  "IATA": "KUU",
+  "Municipality": "Bhuntar"
+ },
+ {
+  "IATA": "VNS",
+  "Municipality": "Varanasi"
+ },
+ {
+  "IATA": "IXL",
+  "Municipality": "Leh"
+ },
+ {
+  "IATA": "AJL",
+  "Municipality": "Aizawl"
+ },
+ {
+  "IATA": "PAT",
+  "Municipality": "Patna"
+ },
+ {
+  "IATA": "GAU",
+  "Municipality": "Guwahati"
+ },
+ {
+  "IATA": "LUH",
+  "Municipality": "Ludhiana"
+ },
+ {
+  "IATA": "IXM",
+  "Municipality": "Madurai"
+ },
+ {
+  "IATA": "UDR",
+  "Municipality": "Udaipur"
+ },
+ {
+  "IATA": "IXE",
+  "Municipality": "Mangalore"
+ },
+ {
+  "IATA": "LTU",
+  "Municipality": "Latur"
+ },
+ {
+  "IATA": "MZU",
+  "Municipality": "Muzaffarpur"
+ },
+ {
+  "IATA": "BKB",
+  "Municipality": "Bikaner"
+ },
+ {
+  "IATA": "NDC",
+  "Municipality": "Nanded"
+ },
+ {
+  "IATA": "ISK",
+  "Municipality": "Nasik"
+ },
+ {
+  "IATA": "CCU",
+  "Municipality": "Kolkata"
+ },
+ {
+  "IATA": "IXI",
+  "Municipality": "Lilabari"
+ },
+ {
+  "IATA": "RDP",
+  "Municipality": "Durgapur"
+ },
+ {
+  "IATA": "PGH",
+  "Municipality": "Pantnagar"
+ },
+ {
+  "IATA": "IXP",
+  "Municipality": "Pathankot"
+ },
+ {
+  "IATA": "PNY",
+  "Municipality": "Pondicherry"
+ },
+ {
+  "IATA": "PBD",
+  "Municipality": "Porbandar"
+ },
+ {
+  "IATA": "PNQ",
+  "Municipality": "Pune"
+ },
+ {
+  "IATA": "BHO",
+  "Municipality": "Bhopal"
+ },
+ {
+  "IATA": "RJA",
+  "Municipality": "Rajahmundry"
+ },
+ {
+  "IATA": "HYD",
+  "Municipality": "Hyderabad"
+ },
+ {
+  "IATA": "RAJ",
+  "Municipality": "Rajkot"
+ },
+ {
+  "IATA": "RTC",
+  "Municipality": "Ratnagiri"
+ },
+ {
+  "IATA": "REW",
+  "Municipality": "Rewa"
+ },
+ {
+  "IATA": "RRK",
+  "Municipality": "Rourkela"
+ },
+ {
+  "IATA": "DEL",
+  "Municipality": "New Delhi"
+ },
+ {
+  "IATA": "SXV",
+  "Municipality": "Salem"
+ },
+ {
+  "IATA": "AMD",
+  "Municipality": "Ahmedabad"
+ },
+ {
+  "IATA": "SXR",
+  "Municipality": "Srinagar"
+ },
+ {
+  "IATA": "SHL",
+  "Municipality": "Shillong"
+ },
+ {
+  "IATA": "SAG",
+  "Municipality": "Shirdi"
+ },
+ {
+  "IATA": "IXS",
+  "Municipality": "Silchar"
+ },
+ {
+  "IATA": "Sirsa",
+  "Municipality": "Sirsa"
+ },
+ {
+  "IATA": "SSE",
+  "Municipality": "Solapur"
+ },
+ {
+  "IATA": "IXW",
+  "Municipality": "Jamshedpur"
+ },
+ {
+  "IATA": "ATQ",
+  "Municipality": "Amritsar"
+ },
+ {
+  "IATA": "PUT",
+  "Municipality": "Puttaparthi"
+ },
+ {
+  "IATA": "STV",
+  "Municipality": "Surat"
+ },
+ {
+  "IATA": "TEZ",
+  "Municipality": "Tezpur"
+ },
+ {
+  "IATA": "TRZ",
+  "Municipality": "Tiruchirappally"
+ },
+ {
+  "IATA": "TRV",
+  "Municipality": "Thiruvananthapuram"
+ },
+ {
+  "IATA": "Udhampur",
+  "Municipality": "Udhampur"
+ },
+ {
+  "IATA": "BDQ",
+  "Municipality": "Vadodara"
+ },
+ {
+  "IATA": "VGA",
+  "Municipality": "Andhra Pradesh Capital Region"
+ },
+ {
+  "IATA": "IXZ",
+  "Municipality": "Port Blair"
+ },
+ {
+  "IATA": "ZER",
+  "Municipality": "Ziro"
+ },
+ {
+  "IATA": "CCJ",
+  "Municipality": "Calicut"
+ },
+ {
+  "IATA": "MAA",
+  "Municipality": "Chennai"
+ },
+ {
+  "IATA": "BOM",
+  "Municipality": "Mumbai"
+ },
+ {
+  "IATA": "COK",
+  "Municipality": "Kochi"
+ },
+ {
+  "IATA": "GOI",
+  "Municipality": "Vasco da Gama"
+ },
+ {
+  "IATA": "DEL",
+  "Municipality": "New Delhi"
+ },
+ {
+  "IATA": "BLR",
+  "Municipality": "Bangalore"
+ },
+ {
+  "IATA": "CCU",
+  "Municipality": "Kolkata"
+ },
+ {
+  "IATA": "HYD",
+  "Municipality": "Hyderabad"
+ },
+ {
+  "IATA": "ATQ",
+  "Municipality": "Amritsar"
+ },
+ {
+  "IATA": "TRV",
+  "Municipality": "Thiruvananthapuram"
+ }
+]
