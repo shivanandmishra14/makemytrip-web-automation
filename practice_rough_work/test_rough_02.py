@@ -43,4 +43,25 @@ try:
 
 except TimeoutException:
     print("YOU link not found ... breaking out")
-    # break
+
+# calendar
+# Departure date selection
+wait.until(expected_conditions.visibility_of_element_located((By.XPATH, "(//div[@class='dateInnerCell'])[25]"))).click()
+
+# Return date selection
+wait.until(expected_conditions.visibility_of_element_located(
+    (By.XPATH, "//p[@data-cy='returnDefaultText']"))).click()
+wait.until(expected_conditions.visibility_of_element_located(
+    (By.XPATH, "(//div[@class='dateInnerCell'])[32]"))).click()
+
+# traveller and class
+wait.until(expected_conditions.visibility_of_element_located(
+    (By.XPATH, "//span[contains(@class,'lbl_input latoBold appendBottom5')]"))).click()
+wait.until(expected_conditions.visibility_of_element_located((By.XPATH, "//li[@data-cy='adults-2']"))).click()
+wait.until(expected_conditions.visibility_of_element_located(
+    (By.XPATH, "//button[@data-cy='travellerApplyBtn']"))).click()
+
+# Search
+wait.until(expected_conditions.visibility_of_element_located(
+    (By.XPATH, "//a[@class='primaryBtn font24 latoBold widgetSearchBtn ']"))).click()
+
