@@ -17,6 +17,10 @@ wait = WebDriverWait(driver, 20)
 driver.get("https://www.makemytrip.com/")
 driver.maximize_window()
 
+# close banner
+# wait.until(expected_conditions.visibility_of_element_located((By.XPATH, "//span[@class='langCardClose']"))).click()
+
+
 wait.until(expected_conditions.visibility_of_element_located((By.XPATH, log_in))).click()
 wait.until(expected_conditions.visibility_of_element_located((By.LINK_TEXT, "T&Cs"))).click()
 scroll_to_top = wait.until(expected_conditions.visibility_of_element_located((By.LINK_TEXT, "APPLICABILITY")))
@@ -24,6 +28,7 @@ action = ActionChains(wait)
 
 driver.execute_script("window.scrollTo(document.body.scrollHeight, 0);")
 driver.find_element(By.ID, "header_tab_flights").click()
+
 
 self.driver = driver
 
@@ -38,6 +43,7 @@ try:
     wait.until(expected_conditions.visibility_of_element_located(
         (By.XPATH, "//input[@placeholder='From']"))).send_keys("PNQ")
     time.sleep(2)
+    assert "Pune" == "Pune"
     wait.until(expected_conditions.visibility_of_element_located(
         (By.XPATH, "//p[contains(.,'Pune, India')]"))).click()
 
@@ -47,6 +53,7 @@ try:
     wait.until(expected_conditions.visibility_of_element_located(
         (By.XPATH, "//input[@placeholder='To']"))).send_keys("DEL")
     time.sleep(2)
+    assert "Delhi" == "Delhi"
     wait.until(expected_conditions.visibility_of_element_located(
         (By.XPATH, "//p[contains(.,'Delhi, India')]"))).click()
 
@@ -61,6 +68,7 @@ try:
     wait.until(expected_conditions.visibility_of_element_located(
         (By.XPATH, "//input[@placeholder='From']"))).send_keys("CCU")
     time.sleep(2)
+    assert "Kolkata" == "Kolkata"
     wait.until(expected_conditions.visibility_of_element_located(
         (By.XPATH, "//p[contains(.,'Kolkata, India')]"))).click()
 
@@ -70,6 +78,7 @@ try:
     wait.until(expected_conditions.visibility_of_element_located(
         (By.XPATH, "//input[@placeholder='To']"))).send_keys("HYD")
     time.sleep(2)
+    assert "Hyderabad" == "Hyderabad"
     wait.until(expected_conditions.visibility_of_element_located(
         (By.XPATH, "//p[contains(.,'Hyderabad, India')]"))).click()
 
@@ -79,7 +88,7 @@ try:
     wait.until(expected_conditions.visibility_of_element_located(
         (By.XPATH, "//p[normalize-space()='31']"))).click()
 
-#     Add another  and remove city
+    #     Add another  and remove city
     wait.until(expected_conditions.visibility_of_element_located(
         (By.XPATH, "(//button[@data-cy='addAnotherCity'])[2]"))).click()
     time.sleep(2)
@@ -93,7 +102,8 @@ try:
     # Search
     driver.implicitly_wait(2)
     wait.until(expected_conditions.visibility_of_element_located(
-        (By.XPATH, "//a[@class='primaryBtn font24 latoBold widgetSearchBtn disableSearch widgetSearchBtnMultiCity']"))).click()
+        (By.XPATH,
+         "//a[@class='primaryBtn font24 latoBold widgetSearchBtn disableSearch widgetSearchBtnMultiCity']"))).click()
 
 except TimeoutException:
     print("YOU link not found ... breaking out")
