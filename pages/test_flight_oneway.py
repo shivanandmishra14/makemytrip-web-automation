@@ -46,6 +46,10 @@ except TimeoutException:
 
 # calendar
 # Departure date selection
+# Next month
+# wait.until(expected_conditions.visibility_of_element_located((By.XPATH,
+# "//span[contains(@aria-label,'Next Month')]"))).click()
+
 wait.until(expected_conditions.visibility_of_element_located((By.XPATH, "(//div[@class='dateInnerCell'])[25]"))).click()
 
 # Return date selection
